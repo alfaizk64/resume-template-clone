@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Vithkuqi:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: gray;
+}
+h2{
+    font-family: 'Noto Serif Vithkuqi', serif;
+  
+}
+p{
+    font-family: 'Noto Serif Vithkuqi', serif;
+}
+.main_container{
+    max-width:941px ;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0 60px ;
+   
+}
+.main_header{
+   
+    width: 100%;
+    position: relative;
+}
+
+.main_header .header{
+    display: flex;
+    justify-content: space-between;
+}
+.main_header .left_head{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    line-height: 1.2;
+}
+.main_header .right_head{
+   margin: 10px;
+}
+/* .main_header .left_head{
+    width: 60% ;
+    background-color: greenyellow;
+    height: 100vh;
+}
+.main_header .right_head{
+    width: 40%;
+    background-color: blanchedalmond;
+    height: 100vh;
+} */
+
+.linkedin_logo{
+    position: relative;
+}
+.linkedin_logo::after{
+    position: absolute;
+    content: "\f08c";
+    font-family: FontAwesome;
+    left: -18px;
+    top: 2px;
+}
+.main_section{
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding-top: 25px;
+}
+.main_section .left_main_section{
+    width: 60% ;
+}
+.main_section .right_main_section{
+    width: 40%;
+    border-left: 3px solid orangered;    
+    padding-left: 25px;
+
+}
+.left_main_section .academic_record ,.projects, .training_intership{
+    padding-top: 10px;
+}
+.left_main_section .list_left_padding{
+    padding-left: 35px;
+}
+.right_main_section .left_padding{
+    padding-left: 40px;
+}
+.right_main_section .strength ,.improvement,.hobbies,.personal_detail_section{
+    padding-top: 20px;
+}
+.right_main_section .personal_detail_section .personal_detail
+{
+  line-height:  1.8;
+}
+.main_container  .refrence{
+    padding-top: 20px;
+}
+.main_container  .refrence p{
+    letter-spacing: 1px;
+}
+.main_container  .refrence .refrence_contact{
+    display: flex;
+    justify-content: space-between;
+}
+.main_container .decleration{
+    padding-top: 30px;
+}
+.main_container .info{
+    display: flex;
+    justify-content: space-between;
+  padding-top: 20px;
+}
+.main_container .info .name_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.main_container .logo{
+    text-align: center;
+}
